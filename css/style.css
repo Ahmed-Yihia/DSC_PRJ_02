@@ -1,0 +1,193 @@
+
+/* #region  Start :::::::::::::::::::::::::::: General Section :::::::::::::::::::::::::::: */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Passion+One:wght@400;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 0% 20%;
+}
+
+html{
+    font-family: "Oswald";
+    font-size: 16px;
+    width: 1950px;
+}
+
+
+/* #endregion  End :::::::::::::::::::::::::::: General Section :::::::::::::::::::::::::::: */
+
+/* #region  Start :::::::::::::::::::::::::::: header Section :::::::::::::::::::::::::::: */
+
+.header{
+    margin: 70px 0px 0px 0px;
+    width: 100%;
+}
+
+
+.header-content{
+    background-color: #d6d2d2;
+    height: 500px;
+}
+
+
+.header-text{
+    width: 50%;
+    float: left;
+}
+
+.header-text h1{
+    font-family: "Passion One";
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: normal;
+    padding-top: 90px;
+    padding-bottom: 20px;
+    color: rgba(206, 44, 44, 0.925);
+}
+
+
+.header-text p{
+    line-height: 1.4em;
+    font-family: "Oswald";
+    font-size: 16px;
+    font-weight: normal;
+    color: #807e7e;
+}
+
+
+.header-image{
+    width: 40%;
+    height: 100%;
+    float: right;
+    position: relative;
+    background-image: url("../img/headerbg.jpg");
+    background-repeat: no-repeat;   
+    background-size: cover;
+    background-position: center;
+}
+
+.header-image-items{
+    position: absolute;
+    bottom: 0px;
+}
+
+.header-image-items img{
+    width: 130px;
+    height: 90px;
+    margin: 10px;
+    border: 3px solid #FFF;
+}
+
+/* #endregion  End :::::::::::::::::::::::::::: header Section :::::::::::::::::::::::::::: */
+
+
+
+
+/* #region  Start :::::::::::::::::::::::::::: Comments Section :::::::::::::::::::::::::::: */
+
+
+.comments{
+    margin-top: 60px;
+}
+
+.comments-content h1{
+    
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.comments-content-items{
+    margin-bottom: 150px;
+    padding: 25px;
+    width: 100%;
+    height: 355px;
+}
+
+.comments-content-item{
+    background-color:#d6d2d2;
+    width: 30.333%;
+    padding: 20px;
+    height: 315px;
+    
+}
+
+.comments-content-item-1{
+    float: left;
+}
+
+.comments-content-item-2{
+    float: left;
+    margin: 0px 45px;
+}
+
+.comments-content-item-3{
+    float: left;
+}
+
+.comments-content-item h2{
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #1b1b1b;
+}
+
+
+.comments-content-item img{
+    width: 100%;
+    height: 150px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.comments-content-item-user-name{
+    width: 50%;
+    display: inline;
+}
+
+.comments-content-item-user-name img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+}
+
+.comments-content-item-user-name p{
+    padding: 25px 10px;
+    float: left;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.comments-content-item-user-react{
+    float: right;
+    display: inline;
+    width: 50%;
+    padding: 27px 10px;
+    font-size: 12px;
+}
+
+.comments-content-item-user-react-liks{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.comments-content-item-user-react-comments{
+    float: right;
+    width: 50%;
+    text-align: right;
+
+}
+
+/* #endregion  End :::::::::::::::::::::::::::: Comments Section :::::::::::::::::::::::::::: */
